@@ -1,0 +1,1 @@
+"use strict";!function(t){t(".input-default-wrapper").on("change",".input-default-js",function(e){var a=t(e.target),l=a.next("label"),n=a[0].files,r="";n&&n.length>1?r=(a.attr("data-multiple-target")||"").replace("{target}",n.length):e.target.value&&(r=e.target.value.split("\\").pop()),r?l.find(".span-choose-file").html(r):l.html(l.html())})}(jQuery);
